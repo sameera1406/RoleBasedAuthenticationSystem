@@ -28,4 +28,5 @@ async function authArtist(req,res,next){
 }
 
 
+
 module.exports={authArtist}
