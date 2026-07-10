@@ -54,7 +54,6 @@ async function createAlbum(req,res){
 async function getAllMusics(req,res){
     const musics=await musicModel
     .find()
-    .skip(4)
     .limit(10)
     .populate("artist","username email")
 
